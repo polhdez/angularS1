@@ -5,15 +5,15 @@ body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
   margin: auto;
+  word-wrap: break-word;
 }
 
 .grid {
-  margin-top:20px;
   display: grid;
   border: 5px solid #000;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .item {
@@ -54,4 +54,15 @@ body {
   color: #4E4E6A;
   grid-column: 1/4;
 }
+
+@media only screen and (max-width: 800px) {
+  body {
+    max-width: 600px;
+  }
+
+  #grid2 , #grid2 > * {
+      border: 5px solid yellow
+    }
+  }
+
   
