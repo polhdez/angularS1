@@ -23,7 +23,7 @@ a:hover {
 img {
     width: 100%;
     max-height: 100%;
-    object-fit: contain
+    object-fit: contain;
 }
 
 .header-text {
@@ -67,7 +67,6 @@ img {
     display: grid;
     width: auto;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 30% 30% 30%;
     background-color: white;
     padding-top: 10px;
     padding-bottom: 10px;
