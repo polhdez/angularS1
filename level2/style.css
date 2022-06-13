@@ -165,34 +165,35 @@ footer {
     }
 
     #culture {    
-        grid-column: 1/4;
+        grid-column: 1/6;
         grid-row: 1;
     }
     
     #gastronomy {
-        grid-column: 1/4;
+        grid-column: 1/6;
         grid-row: 2;
     }
     
     #tourism {
-        grid-column: 1/4;
+        grid-column: 1/6;
         grid-row: 3;
     }
     
     #nocturnal-life {
-        grid-column: 1/4;
+        grid-column: 1/6;
         grid-row: 4;
     }
     
     #sidebar {
-        grid-column: 4/6;
-        grid-row: 1/5;
+        grid-column: 1/6;
+        grid-row: 5;
         background-color: silver;
+        text-align: center;
     }
     
     #bottom {
         grid-column: 1/6;
-        grid-row: 5;
+        grid-row: 6;
         background-color: silver;
         text-align: center;
     }
