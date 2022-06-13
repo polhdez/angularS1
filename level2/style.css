@@ -8,7 +8,7 @@ header {
     background: url("images/header.jpg");
     background-position: center;
     background-attachment: contain;
-    background-position: center; 
+    background-position: center;
 }
 
 a {
@@ -34,7 +34,7 @@ img {
     color: orange;
     padding-top: 160px;
     opacity: 75%;
-    
+
 }
 
 .navbar {
@@ -51,7 +51,7 @@ img {
 
 .navbar-item {
     flex: 1;
-    
+
 }
 
 .navbar-logo {
@@ -91,10 +91,10 @@ img {
 }
 
 .item-text-container {
-    display:flex;
+    display: flex;
 }
 
-.item-text-container > p {
+.item-text-container>p {
     padding: 5px;
 }
 
@@ -110,7 +110,7 @@ img {
     left: 16px;
 }
 
-#culture {    
+#culture {
     grid-column: 1/3;
     grid-row: 1;
 }
@@ -157,44 +157,52 @@ footer {
 
 @media only screen and (max-width: 800px) {
     body {
-      max-width: 800px;
+        max-width: 800px;
     }
 
     .link-label {
         display: none;
     }
 
-    #culture {    
+    #culture {
         grid-column: 1/6;
         grid-row: 1;
     }
-    
+
     #gastronomy {
         grid-column: 1/6;
         grid-row: 2;
     }
-    
+
     #tourism {
         grid-column: 1/6;
         grid-row: 3;
     }
-    
+
     #nocturnal-life {
         grid-column: 1/6;
         grid-row: 4;
     }
-    
+
     #sidebar {
         grid-column: 1/6;
         grid-row: 5;
-        background-color: silver;
         text-align: center;
     }
-    
+
     #bottom {
         grid-column: 1/6;
         grid-row: 6;
-        background-color: silver;
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        max-width: 600px;
+    }
+
+    .item-text-container {
+        flex-direction: column;
     }
 }
